@@ -1,0 +1,45 @@
+body {
+    font-family: Helvetica, arial, sans-serif;
+}
+
+/* navbar */
+
+.nav-sony {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.nav-sony button {
+    border-color: lightgray;
+}
+
+.img-sony-logo {
+    width:7em;
+}
+
+.img-play-logo {
+    width: 5em;
+}
+
+/* vertical-align */
+.v-align {
+    vertical-align: -webkit-baseline-middle;
+}
+
+
+/* font-size */
+
+
+
+/* height */
+
+.h-30 {
+    height: 30px;
+}
+
+.h-100 {
+    height: 100px;
+}
+
