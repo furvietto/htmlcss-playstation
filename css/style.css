@@ -123,9 +123,13 @@ border-color: turquoise;
 
 /* footer */
 
-footer .row  a {
+footer .row a {
     text-decoration: none;
     color: white;
+}
+
+#txt-dec {
+    text-decoration: underline;
 }
 
 /* vertical-align */
@@ -185,4 +189,8 @@ button.color-blue {
 
 .w-5 {
     width: 5em;
+}
+
+.w-9 {
+    width: 9em;
 }
