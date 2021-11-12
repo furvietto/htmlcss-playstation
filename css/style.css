@@ -12,10 +12,12 @@ body {
     z-index: 999;
 }
 
-.nav-sony button {
-    border-color: lightgray;
+.dropdown-toggle.show::after {
+    border:0;
+    font-family: "Font Awesome 6 Free";
+    content: "\f078";
+    font-weight: 900;
 }
-
 .img-sony-logo {
     width:7em;
 }
@@ -24,12 +26,85 @@ body {
     width: 5em;
 }
 
+.img-bc-returnal {
+    width: 60%;
+}
+
 /* returnal */
 
-.bc-returnal {
-    background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
+.jumbo-returnal .bc-returnal {
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center ;
     width: 100%;
     height: 100vh;
+}
+
+/* introduction */
+
+.introduction img {
+    width: 100%;
+}
+
+.introduction .border-img-int {
+    border: 2px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.border-img-int:hover {
+border-color: turquoise;
+}
+
+/* console */
+
+.console img {
+    width: 100%;
+}
+
+.insertion img {
+    transition: 1s;
+}
+
+.insertion > div {
+    opacity: 0.5;
+    border-bottom: 2px solid transparent;
+}
+
+.insertion > div:hover {
+    opacity: 1;
+    border-bottom:2px solid mediumblue;
+    cursor: pointer;
+}
+
+.insertion > div:hover img{
+    transform: scale(0.9);
+}
+
+.fa-trademark {
+    font-size: 0.4em;
+    vertical-align: super;
+}
+
+/* it-takes-2 */
+
+.bc-it-takes {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center ;
+    width: 100%;
+}
+
+.img-bc-it-takes {
+    width: 60%;
+}
+
+/* new-order */
+
+.new-order img{
+    width: 100%;
+    border-radius: 30px;
 }
 
 /* vertical-align */
@@ -37,11 +112,27 @@ body {
     vertical-align: -webkit-baseline-middle;
 }
 
-
 /* font-size */
+
+.h1-font {
+    font-size: 3em;
+}
+
+
+/* padding */
 
 .p-126 {
     padding-top: 126px;
+}
+
+/* color */
+
+.color-blue {
+    color: lightskyblue;
+}
+
+.color-lightgray {
+    color:lightslategrey;
 }
 
 /* height */
@@ -52,4 +143,8 @@ body {
 
 .h-100 {
     height: 100px;
+}
+
+.h-100x {
+    height: 100%;
 }
