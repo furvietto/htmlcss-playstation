@@ -37,7 +37,7 @@ body {
     background-size: cover;
     background-position: center ;
     width: 100%;
-    height: 100vh;
+    padding-top: 300px
 }
 
 /* introduction */
@@ -82,6 +82,7 @@ border-color: turquoise;
     transform: scale(0.9);
 }
 
+.fa-copyright,
 .fa-trademark {
     font-size: 0.4em;
     vertical-align: super;
@@ -105,6 +106,13 @@ border-color: turquoise;
 .new-order img{
     width: 100%;
     border-radius: 30px;
+    cursor: pointer;
+}
+
+/* sales */
+
+.sales img {
+    cursor: pointer;
 }
 
 /* vertical-align */
@@ -127,12 +135,16 @@ border-color: turquoise;
 
 /* color */
 
-.color-blue {
+.color-lightblue {
     color: lightskyblue;
 }
 
 .color-lightgray {
     color:lightslategrey;
+}
+
+button.color-blue {
+    color: blue;
 }
 
 /* height */
@@ -143,8 +155,4 @@ border-color: turquoise;
 
 .h-100 {
     height: 100px;
-}
-
-.h-100x {
-    height: 100%;
 }
