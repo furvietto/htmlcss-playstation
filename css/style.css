@@ -50,11 +50,13 @@ body {
     border: 2px solid transparent;
     border-radius: 10px;
     cursor: pointer;
-    transition: 0.3s;
+    transition: 1s;
 }
 
 .border-img-int:hover {
 border-color: turquoise;
+position: relative;
+bottom: 10px;
 }
 
 /* console */
